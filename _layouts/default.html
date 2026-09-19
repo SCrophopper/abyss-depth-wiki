@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="{{ '/' | relative_url }}">ABYSS DEPTH <span>WIKI</span></a>
+    <nav aria-label="Main navigation">
+      <a href="{{ '/world/' | relative_url }}">World</a>
+      <a href="{{ '/organizations/' | relative_url }}">Organizations</a>
+      <a href="{{ '/creatures/' | relative_url }}">Creatures</a>
+      <a href="{{ '/characters/' | relative_url }}">Characters</a>
+      <a href="{{ '/equipment/' | relative_url }}">Equipment</a>
+      <a href="{{ '/series/' | relative_url }}">Series</a>
+    </nav>
+  </header>
+  <div class="shell">
+    <aside>
+      <p class="eyebrow">Explore</p>
+      <a href="{{ '/world/synopsis/' | relative_url }}">Synopsis</a>
+      <a href="{{ '/world/refugees/' | relative_url }}">Refugees</a>
+      <a href="{{ '/world/underwater-habitations/' | relative_url }}">Underwater Habitations</a>
+      <a href="{{ '/locations/ce-026/' | relative_url }}">CE-026</a>
+      <a href="{{ '/organizations/deep/' | relative_url }}">D.E.E.P.</a>
+      <a href="{{ '/creatures/star/' | relative_url }}">STAR</a>
+      <a href="{{ '/characters/affinity/' | relative_url }}">Affinity</a>
+    </aside>
+    <main>
+      {{ content }}
+    </main>
+  </div>
+  <footer>
+    <p>Abyss Depth and its original characters are created by SCrophopper.</p>
+    <p><a href="https://www.deviantart.com/scrophopper">DeviantArt</a> · <a href="https://scrophopper.fanbox.cc/">FANBOX</a> · <a href="https://discord.gg/zbj6W4KHjw">Discord</a></p>
+  </footer>
+</body>
+</html>
+

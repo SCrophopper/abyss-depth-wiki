@@ -1,0 +1,13 @@
+title: Abyss Depth Wiki
+description: The official lore and world guide for Abyss Depth, created by SCrophopper.
+author: SCrophopper
+url: ""
+baseurl: "/abyss-depth-wiki"
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+exclude:
+  - README.md
+  - abyss-depth-wiki.zip
