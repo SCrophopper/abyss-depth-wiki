@@ -1,41 +1,34 @@
-# Abyss Depth Wiki — GitHub Pages package
+# Abyss Depth Wiki
 
-This folder is ready to become a GitHub Pages site.
+The official lore and world guide for **Abyss Depth**, a fictional universe created by **SCrophopper**.
 
-## Upload it to GitHub
+After an unprecedented cataclysm floods Earth, humanity survives across surface raft communities, submerged habitats, underwater cities, and settlements deep beneath the ocean. Resource scarcity, social conflict, unknown creatures, and the activities of D.E.E.P. shape this new world.
 
-1. Create a **public** repository named `abyss-depth-wiki`.
-2. Open the repository and choose **Add file → Upload files**.
-3. Upload the **contents of this folder**, not the outer folder itself. The repository root must directly contain `_config.yml`, `index.md`, and the other folders.
-4. Commit the uploaded files to the `main` branch.
-5. Go to **Settings → Pages**.
-6. Under **Build and deployment**, choose **Deploy from a branch**.
-7. Choose branch **main**, folder **/(root)**, then press **Save**.
-8. Wait a few minutes, then use the **Visit site** button shown on that page.
+## Explore the wiki
 
-The address will normally be:
+- [World overview](world/index.md)
+- [Synopsis](world/synopsis.md)
+- [Refugees](world/refugees.md)
+- [Underwater habitations](world/underwater-habitations.md)
+- [CE-026](locations/ce-026.md)
+- [D.E.E.P.](organizations/deep.md)
+- [Creatures](creatures/index.md)
+- [Characters](characters/index.md)
+- [Equipment](equipment/index.md)
+- [Story series](series/index.md)
 
-`https://YOUR-USERNAME.github.io/abyss-depth-wiki/`
+## Content notice
 
-## One required edit after uploading
+This wiki contains plot, lore, and character information that may affect a first-time experience. Information may be expanded or revised as the Abyss Depth story develops.
 
-Open `_config.yml` and set:
+Some intentionally incomplete entries describe subjects that remain mysteries within the story. Pages awaiting canonical source material are identified rather than filled with speculation.
 
-```yaml
-url: "https://YOUR-USERNAME.github.io"
-baseurl: "/abyss-depth-wiki"
-```
+## Official links
 
-Replace `YOUR-USERNAME` with your GitHub username. The `baseurl` is already set correctly if your repository is named `abyss-depth-wiki`. This makes navigation, SEO metadata, and the sitemap use the correct public address.
+- [SCrophopper on DeviantArt](https://www.deviantart.com/scrophopper)
+- [SCrophopper on FANBOX](https://scrophopper.fanbox.cc/)
+- [Abyss Depth Discord](https://discord.gg/zbj6W4KHjw)
 
-If you choose a different repository name, use that name for `baseurl` instead.
+## Copyright
 
-## Editing later
-
-Every article is a normal Markdown file. Click a file in GitHub, click the pencil icon, edit the text, and commit the change. GitHub Pages will publish the update automatically.
-
-Do not remove the `---` metadata block at the top of an article. It controls the page title, description, layout, and permanent URL.
-
-## Source status
-
-This first package was reorganized from the pasted DeviantArt journal. It includes all prose found in that file. Subjects named in its table of contents but absent from the pasted body are marked as awaiting source material rather than invented.
+Abyss Depth, its setting, characters, original writing, and original artwork are created by SCrophopper. Unless stated otherwise, all rights are reserved.
