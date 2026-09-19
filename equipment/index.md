@@ -30,7 +30,5 @@ The original table of contents names the following subjects, but their text is a
 - Ballast Pump
 - Drifter
 - Media
-- Soundtrack
 
 They can be given individual pages after their canonical descriptions are supplied.
-

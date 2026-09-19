@@ -15,6 +15,7 @@ After an unprecedented cataclysm floods Earth, humanity survives across surface 
 - [Creatures](creatures/index.md)
 - [Characters](characters/index.md)
 - [Equipment](equipment/index.md)
+- [Soundtrack](soundtrack/index.md)
 - [Story series](series/index.md)
 
 ## Content notice

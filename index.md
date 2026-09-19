@@ -17,6 +17,7 @@ description: The official Abyss Depth lore, world, characters, creatures, organi
   <a class="card" href="{{ '/creatures/' | relative_url }}"><strong>Creatures</strong><p>Cycle Spores, STAR, and other life found in the depths.</p></a>
   <a class="card" href="{{ '/characters/' | relative_url }}"><strong>Characters</strong><p>The crew, D.E.E.P. operators, and their relationships.</p></a>
   <a class="card" href="{{ '/equipment/' | relative_url }}"><strong>Equipment</strong><p>APS gear and technology designed for the underwater world.</p></a>
+  <a class="card" href="{{ '/soundtrack/' | relative_url }}"><strong>Soundtrack</strong><p>Listen to the original music created for the Abyss Depth universe.</p></a>
   <a class="card" href="{{ '/series/' | relative_url }}"><strong>Series</strong><p>Read the published Abyss Depth story chapters in order.</p></a>
 </div>
 
@@ -28,4 +29,3 @@ description: The official Abyss Depth lore, world, characters, creatures, organi
 - Visit [CE-026]({{ '/locations/ce-026/' | relative_url }}), the crew's workshop and headquarters.
 
 This wiki replaces the original single-page DeviantArt lore journal with searchable, linked articles. Original artwork and story links continue to lead to SCrophopper's DeviantArt pages.
-

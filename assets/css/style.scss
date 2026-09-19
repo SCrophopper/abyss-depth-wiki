@@ -33,9 +33,14 @@ blockquote, .notice { border-left: 3px solid var(--accent2); background: rgba(22
 .card { background: linear-gradient(145deg,#0b2329,#07161a); border: 1px solid var(--line); border-radius: 10px; padding: 20px; min-height: 132px; }
 .card strong { display: block; color: white; font-size: 1.1rem; margin-bottom: 8px; }
 .card p { margin: 0; color: var(--muted); font-size: .92rem; }
+.track-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 18px; margin: 28px 0; }
+.track { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+.track iframe { display: block; width: 100%; aspect-ratio: 16/9; border: 0; background: #000; }
+.track-info { padding: 14px 16px 17px; }
+.track-info strong { display: block; color: white; font-size: 1.05rem; }
+.track-info a { font-size: .88rem; }
 table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
 th,td { text-align: left; border-bottom: 1px solid var(--line); padding: 10px 14px; }
 th { color: var(--accent2); }
 footer { border-top: 1px solid var(--line); padding: 36px 24px; text-align: center; color: var(--muted); font-size: .88rem; }
 @media(max-width:800px) { .site-header { position: static; align-items: flex-start; flex-direction: column; gap: 10px; } .shell { grid-template-columns: 1fr; padding-top: 34px; } aside { display: none; } nav { gap: 10px 15px; } h1 { font-size: 2.7rem; } }
-
